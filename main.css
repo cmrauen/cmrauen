@@ -1,0 +1,79 @@
+body, html {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #F6F6F6;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  color: #1D1D1D;
+}
+
+footer {
+  text-align: center;
+  background-color: transparent;
+  font-size: 2rem;
+  padding: 30px 0;
+}
+
+.modal * {
+  font-size: 2rem;
+}
+
+h1 svg {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* NAVIGATION */
+
+.mynavbar {
+  background: #F6F6F6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mynavbar.navbar-light .nav-link {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: .5pt;
+}
+
+.mynavbar .navbar-toggler {
+  width: 44px;
+  height: 44px;
+}
+
+section {
+  padding: 50px 0;
+  font-size: 2rem;
+  background-color: #BFBFBF;
+  margin-bottom: 50px;
+}
+
+svg g {
+  fill: #1D1D1D;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+/* INTRO */
+
+#intro {
+  background-color: transparent;
+  border-bottom: 2px solid #8C8C8C;
+  padding-top: 150px;
+  margin-bottom: 300px;
+  max-width: 600px;
+}
+
+/* PORTFOLIO */
+
+.portfolio img {
+  border-bottom: 2px solid #1D1D1D;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
