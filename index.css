@@ -52,7 +52,7 @@ section {
   margin-bottom: 50px;
 }
 
-section#lens {
+section.lens {
   background-color: #666;
 }
 
@@ -92,4 +92,8 @@ svg g {
 .gallery .thumb {
   width: 100%;
   box-shadow: 0 0 4px -1px #000;
+}
+
+#lens {
+  padding-bottom: 64px;
 }
